@@ -1,0 +1,534 @@
+body{
+	color: #1b1b1b;
+  	font-family: "Raleway",sans-serif;
+  	font-size: 14px;
+    box-sizing: border-box;
+}
+
+.opensans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.raleway{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.navheader{
+    padding: 30px 70px;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+.black{
+    color: black;
+}
+
+.menu{
+    position: relative;
+    top: 7px;
+    list-style: none;
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 27px;
+}
+
+.header{
+	background-image: url(../assets/indexbanner-bg3.jpg);
+	height: 528px;
+    background-size: cover;
+}
+
+.banner{
+    position: absolute;
+    top: 255px;
+    left: 170px;
+}
+
+.banner h1{
+	font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.banner p{
+	color: grey;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 36px;
+    margin: 0 0 10px;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+
+
+.mayuscula{
+	text-transform: uppercase;
+    font-weight: 900;
+}
+
+.form{
+    position: relative;
+    text-align: center;
+    margin-top: -45px;
+}
+
+.cuadradoheader{
+	width:900px;
+	height:48px;
+    font-size: 18px;
+    padding: 25px 25px;
+}
+
+.boton-search{
+    margin-left: -5px;
+	background: #00abf0;
+    color: #fff;
+	font-weight: 700;
+    padding: 41px 45px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.logos-center{
+	text-align: center;
+    display: inline-block;
+}
+
+.logos-center h3{
+    margin: 20px;
+}
+
+.div-logos{
+    position: relative;
+    top: 90px;
+}
+
+.div-logos ul{
+    display: block;
+    text-align: center;
+}
+
+.icono{
+    transition: 1.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.icono:hover{
+    transform: scale(1.35);
+}
+
+.threedots{
+    position: relative;
+    bottom: 80px;
+    margin: 30px;
+}
+
+.puntosblue{
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    top: 153px;
+}
+
+.servicios{
+    position: relative;
+    top: 132px;
+}
+
+.servicios h2{
+	text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.servicios p{
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0px 135px 0px;
+}
+
+.contenedor-celu{
+    position: relative;
+    top: 144px;
+}
+
+.menuimg{
+    float:left;
+    width: 400px;
+}
+
+.menuimg ul{
+    position: relative;
+    bottom: 46px;
+}
+
+.menuimg li{
+    text-align: right;
+    position: relative;
+    margin: 55px;
+}
+
+.menuimg h3{
+    padding: 0px 0px 12px 0px;
+}
+
+.menuimg p{
+    line-height: 1.5;
+}
+
+.img1{
+    position: absolute;
+    bottom: 60px;
+    right: -65px;
+}
+
+.img2{
+    position: absolute;
+    bottom: 60px;
+    right: -65px;
+}
+
+.img3{
+    position: absolute;
+    bottom: 60px;
+    right: -65px;
+}
+
+.menuimg2{
+    float: right;
+    width: 400px;
+}
+
+.menuimg2 ul{
+    position: relative;
+    bottom: 46px;
+}
+
+.menuimg2 li{
+    text-align: left;
+    position: relative;
+    margin: 55px;
+}
+
+.menuimg2 h3{
+    padding: 0px 0px 12px 0px;
+}
+
+.menuimg2 p{
+    line-height: 1.5;
+}
+
+.img4{
+    position: absolute;
+    bottom: 60px;
+    left: -65px;
+}
+
+.img5{
+    position: absolute;
+    bottom: 60px;
+    left: -65px;
+}
+
+.img6{
+    position: absolute;
+    bottom: 60px;
+    left: -65px;
+}
+
+.imgcelu{
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+
+
+.img-precios{
+    height: 270px;
+    padding: 0 0 80px;
+    background: url("../assets/pricing-bg.jpg");
+    background-size: 1250px 350px;
+    position: relative;
+    top: -79px;
+}
+
+.espaciofoto{
+    position: relative;
+    top: 100px;
+}
+
+.cuadrado-precios{
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 53px 45px 62px 59px;
+    margin: 1px -6px 100px 23px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.inblock{
+    display: inline-block;
+}
+
+
+.posicionprecios{
+    position: relative;
+    margin-top: -158px;
+    z-index: 100;
+}
+
+.inblock h2{
+    margin: 32px 0;
+}
+
+.inblock h3{
+    color: grey;
+    position: relative;
+    bottom: 16px;
+}
+
+.cuadrado-precios p{
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0;
+    padding: 0 0 27px;
+}
+
+.cuadrado-precios h3{
+    border-bottom: 1px solid #eff1f2;
+
+}
+
+.cuadrado-precios table{
+    padding: 14px 12px;
+    border: 0 none;   
+}
+
+.cuadrado-precios td{
+	border: 0 none;
+    padding: 7px 18px;
+}
+
+.boton-precios{
+	background: #00adf0;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 13px 21px;
+    border-color: #2e6da4;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+}
+
+
+
+.titulo{
+	font-size: 40px;
+    font-weight: 700;
+    margin: 119px 0 28px;
+    padding: 29px 0 0;
+    text-align: center;
+}
+
+.subtitulo{
+	color: #7a7c80;
+    font-size: 18px;
+    margin: 0 0 73px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.small table tbody tr td:last-child {
+	color: #67d6ff;
+    font-weight: 500;
+}
+.normal table tbody tr td:last-child {
+	color: #f9d423;
+    font-weight: 500;
+}
+.big table tbody tr td:last-child {
+	color: #ff9359;
+    font-weight: 500;
+}
+.best table tbody tr td:last-child {    
+	color: #f75f40;
+    font-weight: 500;
+}
+
+.footer-color{
+    font-size: 35px;
+	background: #233141;
+    padding: 122px 0px;
+    text-align: center;
+
+}
+
+.footer-color2{
+	background: #151d26;
+    padding: 43px 0 45px;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: auto;
+  margin: auto;
+}
+
+.letrafooter{
+	color: white;
+}
+
+.letrafooter h3{
+    margin-left: 10px;
+}
+
+span{
+	color: #1E90FF;
+    font-weight: 900;
+}
+
+.ulfooter {
+    float: right;
+	list-style: none;
+}
+
+.ulfooter li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.afooter {
+	color: white;
+	text-decoration: none;
+}
+
+.mover{
+    position: relative;
+    bottom: 0px;
+}
+
+.contacto{
+    background-image: url(../assets/indexbanner-bg2.jpg);
+    height: 338px;
+    background-size: cover;
+}
+
+
+.banner2{
+    width: 200px;
+    height: 400px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 111px;
+}
+
+.banner2 h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.banner2 p{
+    color: #7a7c80;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 36px;
+    margin: 0 0 10px;
+}
+
+.cajas{
+    margin: 0 0 5px;
+    border: 1px solid #e1e3e4;
+    padding: 24px 18px;
+    width: 30%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.mensaje{
+    margin: 0 0 5px;
+    height: 190px;
+    border: 1px solid #e1e3e4;
+    padding: 14px 18px;
+    width: 30%;
+    border-radius: 3px;
+    bottom: 180px;
+    position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  width: auto;
+  margin: auto;
+}
+
+.posrel{
+    position: relative;
+}
+
+.ultimofooter{
+    position: relative;
+    top: 630px;
+}
+
+.boton-enviar{
+    background: #00adf0;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 13px 21px;
+    border-color: #2e6da4;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+.alinearcajas{
+    width: 1080px;
+    height: 150px;
+    position: relative;
+    bottom: 27px;
+}
+
+.alinearcajas input{
+        display: block;
+
+}
+
+.centrar{
+    position: relative;
+    top: 100px;
+    left: 210px;
+}
